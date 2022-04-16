@@ -1,0 +1,19 @@
+.container-forecast {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    background-color: white;
+    padding: .5rem;
+
+    border-radius: 8px;
+}
+
+.hourly-forecast {
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.container-forecast img {
+    background-color: rgba(30, 143, 255, 0.15);;
+    border-radius: 5px;
+}

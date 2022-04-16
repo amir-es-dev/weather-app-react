@@ -1,0 +1,31 @@
+.input-box {
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.input-box input {
+    margin: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.input-box button {
+    background-color: green;
+    color: white;
+    padding: 0.7rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin: .5rem;
+    cursor: pointer;
+    transition: all .5s;
+}
+.input-box button:hover {
+    background-color: rgb(2, 148, 2);
+}
